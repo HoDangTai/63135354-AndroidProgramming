@@ -15,7 +15,7 @@
         android:layout_height="150dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        tools:srcCompat="@mipmap/hotai4x6" />
+        tools:srcCompat="@mipmap/anhtronhodangtai" />
 
     <TextView
         android:id="@+id/textViewName"

@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ImageView img = findViewById(R.id.imageView);
 
-        img.setImageResource(R.mipmap.hotai4x6);
+        img.setImageResource(R.mipmap.anhtronhodangtai);
 
 
 

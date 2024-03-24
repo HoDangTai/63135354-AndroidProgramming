@@ -1,5 +1,4 @@
 package ntu_63135354;
-
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 

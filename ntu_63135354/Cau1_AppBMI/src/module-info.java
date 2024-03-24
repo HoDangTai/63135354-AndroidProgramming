@@ -4,6 +4,6 @@
 /**
  * 
  */
-module ntu_63135354 {
+module Cau1_AppBMI {
 	requires java.desktop;
 }

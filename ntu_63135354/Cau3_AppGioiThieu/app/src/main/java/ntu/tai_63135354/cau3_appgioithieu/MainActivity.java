@@ -17,14 +17,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Ánh xạ các thành phần từ layout
-        ImageView imageView = findViewById(R.id.imageView);
-        TextView textViewName = findViewById(R.id.textViewName);
-        TextView textViewDescription = findViewById(R.id.textViewDescription);
 
-        // Đặt thông tin cho các thành phần
-        imageView.setImageResource(R.mipmap.hotai4x6); // Đặt hình ảnh của bạn ở đây
-        textViewName.setText("Tên của bạn");
-        textViewDescription.setText("Mô tả về bản thân của bạn");
+
+
+
     }
 }

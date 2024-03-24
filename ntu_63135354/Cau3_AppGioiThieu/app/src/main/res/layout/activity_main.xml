@@ -35,9 +35,19 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/textViewName"
         android:layout_centerHorizontal="true"
-        android:text="Mô tả về bản thân"
+        android:text="Sinh Viên K63 - Đại Học Nha Trang - Khoa Công Nghệ Thông Tin"
         android:textColor="#FFFFFF"
-        android:textSize="16sp"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/mssv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDescription"
+        android:layout_centerHorizontal="true"
+        android:text="MSSV: 63135354"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
         android:layout_marginTop="20dp"/>
 
 </RelativeLayout>

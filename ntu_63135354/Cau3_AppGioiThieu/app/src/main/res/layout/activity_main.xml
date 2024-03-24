@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2196F3"
+    android:background="@drawable/nenchuyentiep"
     android:padding="16dp"
     tools:context=".MainActivity">
 
@@ -15,7 +15,7 @@
         android:layout_height="150dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:src="@drawable/hotai4x6" />
+        tools:srcCompat="@mipmap/hotai4x6" />
 
     <TextView
         android:id="@+id/textViewName"
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/imageView"
         android:layout_centerHorizontal="true"
-        android:text="Tên của bạn"
+        android:text="Hồ Đăng Tài"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"

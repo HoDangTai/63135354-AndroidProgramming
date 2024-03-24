@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         TextView textViewDescription = findViewById(R.id.textViewDescription);
 
         // Đặt thông tin cho các thành phần
-        imageView.setImageResource(R.drawable.hotai4x6); // Đặt hình ảnh của bạn ở đây
+        imageView.setImageResource(R.mipmap.hotai4x6); // Đặt hình ảnh của bạn ở đây
         textViewName.setText("Tên của bạn");
         textViewDescription.setText("Mô tả về bản thân của bạn");
     }

@@ -30,10 +30,21 @@
         android:layout_marginTop="20dp"/>
 
     <TextView
-        android:id="@+id/textViewDescription"
+        android:id="@+id/mota"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/textViewName"
+        android:layout_centerHorizontal="true"
+        android:text="Mô Tả Bản Thân:"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mota"
         android:layout_centerHorizontal="true"
         android:text="Sinh Viên K63 - Đại Học Nha Trang - Khoa Công Nghệ Thông Tin"
         android:textColor="#FFFFFF"
@@ -59,6 +70,17 @@
         android:textColor="#FFFFFF"
         android:textSize="20dp"
         android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/monhoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lophocphan"
+        android:layout_centerHorizontal="true"
+        android:text="Lập Trình Android"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
 
 
 </RelativeLayout>

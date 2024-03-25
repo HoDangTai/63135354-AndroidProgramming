@@ -97,6 +97,34 @@ public class Cau1_AppBMI extends JFrame {
 		btnKtra.setBounds(124, 201, 136, 61);
 		contentPane.add(btnKtra);
 	}
-	
+	void XuLiBMI() {
+		String Str_height = txtChieucao.getText();
+		String Str_weight = txtCannang.getText();
+		Double h = Double.parseDouble(Str_height);
+		Double W = Double.parseDouble(Str_weight);
+		Double H = h/100;
+		Double BMI = W/(H*H);
+		if(BMI < 18.5) {
+			txtChieucao.setText("");
+			txtCannang.setText("");
+			txtBMI.setText(String.valueOf(BMI));
+			txtLoikhuyen.setText("Bạn bị thiếu cân!");
+		}else if(BMI >= 18.5 && BMI <= 24.9) {
+			txtChieucao.setText("");
+			txtCannang.setText("");
+			txtBMI.setText(String.valueOf(BMI));
+			txtLoikhuyen.setText("Bạn có một cơ thể tốt!");
+		}else if (BMI >= 25.0 && BMI <= 29.9) {
+			txtChieucao.setText("");
+			txtCannang.setText("");
+			txtBMI.setText(String.valueOf(BMI));
+			txtLoikhuyen.setText("Bạn đang bị thừa cân!");
+		}else if(BMI > 30.0) {
+			txtChieucao.setText("");
+			txtCannang.setText("");
+			txtBMI.setText(String.valueOf(BMI));
+			txtLoikhuyen.setText("Bạn đang bị béo phì!");
+		}
+	}
 
 }

@@ -29,7 +29,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         anhxa();
-        ;
+        buttonAC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ketquaview.setText("");
+                pheptoanview.setText("");
+                tinhtoan="";
+                pheptoan="";
+                checkbang = false;
+                checkcham = false;
+            }
+        });
         button0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

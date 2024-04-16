@@ -43,12 +43,10 @@ public class MainActivity extends AppCompatActivity {
 
     ArrayList<LandScape> getRecyclerViewData() {
         ArrayList<LandScape> dsDuLieu = new ArrayList<>();
-        dsDuLieu.add(new LandScape("thaphanoi", "Cột cờ Hà Nội"));
+        dsDuLieu.add(new LandScape("flag_tower_of_hanoi", "Cột cờ Hà Nội"));
         dsDuLieu.add(new LandScape("effel", "Tháp Effel"));
         dsDuLieu.add(new LandScape("buckingham", "Cung điện Buckinghham"));
-        dsDuLieu.add(new LandScape("thaphanoi", "Cột cờ Hà Nội"));
-        dsDuLieu.add(new LandScape("effel", "Tháp Effel"));
-        dsDuLieu.add(new LandScape("buckingham", "Cung điện Buckinghham"));
+        dsDuLieu.add(new LandScape("statue_of_liberty", "Tượng nữ thần tự do"));
         return dsDuLieu;
     }
 }

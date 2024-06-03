@@ -34,10 +34,10 @@ public class MainActivity extends AppCompatActivity {
                     int id = item.getItemId();
                     if (id == R.id.navigation_welcome) {
                         selectedFragment = new WelcomeFragment();
-                    } else if (id == R.id.navigation_question1) {
-                        selectedFragment = new Question1Fragment();
                     } else if (id == R.id.navigation_profile) {
                         selectedFragment = new ProfileFragment();
+                    } else if (id == R.id.navigation_question1) {
+                        selectedFragment = new Question1Fragment();
                     } else if (id == R.id.navigation_question4) {
                         selectedFragment = new Question4Fragment();
                     }
